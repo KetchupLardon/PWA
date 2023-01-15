@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #40798c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+form > div {
+    display: flex;
+    flex-direction: column;
+}
+input[type="text"]{
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+textarea{ 
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+}
+
+#chat{
+    background-color: #1f363d;
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+    min-height: 60vh;
+    overflow: auto;
+}
+#chat > div{
+    display: flex;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+#chat > div > div:first-child{
+    padding-right: 1rem;
+}
+#last_row{
+    display: flex;
+    flex-direction: row;
+}
+#submit{
+    background-color: #1f363d;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 6.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 5px #0f1a1d;
+    cursor: pointer;
+    margin: 0.25rem;
+    border: none;
+}
+#submit:hover, #submit:active{
+    background-color: #40798c;
+}

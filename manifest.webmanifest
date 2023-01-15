@@ -1,0 +1,54 @@
+{
+    "name": "PWA Chat",
+    "short_name": "Chat",
+    "start_url": ".",
+    "scope": "/",
+    "icons": [
+        {
+            "src": "icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/apple-touch-icon.png",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/favicon-32x32.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/favicon.ico",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/mstile-150x150.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/safari-pinned-tab.svg",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "icons/tchat-logo.png",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#000000",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "prefer_related_applications": true
+}
